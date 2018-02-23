@@ -1,0 +1,93 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.game {
+  background: url("../../assets/images/parchmentPaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: center fixed;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.img-responsive {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'game_of_thronesregular', 'Helvetica Neue', Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 10px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.totals,
+.questionDisplay,
+.message {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  margin:5px;
+  padding: 5px;
+}
+
+#imageHolder {
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: gray;
+  color: white;
+  border: 1px solid white;
+}
+
+.choiceButton:hover {
+  background-color: #545075;
+  color: white;
+  border: 1px solid black;
+}
+
+#startButton,
+#resetButton,
+#choiceOne,
+#choiceTwo,
+#choiceThree,
+#choiceFour {
+  width: 90%;
+  margin: auto;
+  font-family: 'game_of_thronesregular', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 40px;
+  font-size: 20px;
+
+}
+
+#answerInfo {
+  /* background: url("../../assets/images/oldPaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  padding: 10px;
+}
+
+@font-face {
+    font-family: 'game_of_thronesregular';
+ /*   src: url('game_of_thrones-webfont.woff2') format('woff2'),
+         url('game_of_thrones-webfont.woff') format('woff');*/
+    font-weight: normal;
+    font-style: normal;
+}
